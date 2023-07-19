@@ -1,1 +1,1 @@
-# Chat_App_E2EE_Simple
+# 1 app chat sử dụng phương pháp mã hoá đầu cuối ( E2EE ) đơn giản
