@@ -8,7 +8,7 @@ import chardet
 def accept_incoming_connections():
     while True:
         client, client_address = SERVER.accept()
-        print("%s:%s has connected." % client_address)
+        print("%s:%s đã kết nối." % client_address)
         client.send(bytes("Nhập tên của bạn rồi bắt đầu chat!", "utf8"))
         addresses[client] = client_address
         Thread(target=handle_client, args=(client,)).start()
